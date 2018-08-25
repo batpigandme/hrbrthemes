@@ -6,7 +6,7 @@ ipsum_palette <- c("#d18975", "#8fd175", "#3f2d54", "#75b8d1", "#2d543d", "#c9d1
 #' @examples
 #' library(scales)
 #' scales::show_col(ipsum_pal()(9))
-ipsum_pal <- function() { manual_pal(ipsum_palette) }
+ipsum_pal <- function() { scales::manual_pal(ipsum_palette) }
 
 #' Discrete color & fill scales based on the ipsum palette
 #'
@@ -35,7 +35,7 @@ semiotic_palette <- c("#b6a756", "#b3331d", "#00a2ce", "#4d430c", "#007190", "#d
 #' @examples
 #' library(scales)
 #' scales::show_col(semiotic_pal()(6))
-semiotic_pal <- function() { manual_pal(semiotic_palette) }
+semiotic_pal <- function() { scales::manual_pal(semiotic_palette) }
 
 #' Discrete color & fill scales based on the semiotic palette
 #'
